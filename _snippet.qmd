@@ -1,0 +1,39 @@
+This is a playground for `code-annotations`.
+
+- Normal code block with annotation comment but no comment.
+
+  ```r
+  stats::rnorm(1) # <1>
+  ```
+
+- Normal code block with annotation comment and comment.
+
+  ```r
+  stats::rnorm(1) # <1>
+  ```
+  1. Dummy code annotation `stats::rnorm(1)`.
+
+- Computational code block with annotation comment but no comment.
+  
+  ```{r}
+  stats::rnorm(2) # <1>
+  ```
+
+- Computational code block with annotation comment and comment.
+
+  ```{r}
+  stats::rnorm(2) # <1>
+  ```
+  1. Dummy code annotation `stats::rnorm(2)`.
+
+- Normal code block
+
+  ```{r}
+  stats::rnorm(3)
+  ```
+
+- Computational code block
+
+  ```r
+  stats::rnorm(3)
+  ```
