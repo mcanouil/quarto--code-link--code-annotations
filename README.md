@@ -18,6 +18,15 @@ code-annotations: false
 
 - All Good
 
+## [](./link-true--annot-none.qmd)
+
+```yaml
+code-link: true
+code-annotations: none
+```
+
+- Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed/hidden.
+
 ## [](./link-true--annot-hover.qmd)
 
 ```yaml
@@ -26,15 +35,6 @@ code-annotations: hover
 ```
 
 - Annotation in code block => Bad (_known limitation_)
-- Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed/hidden.
-
-## [](./link-true--annot-none.qmd)
-
-```yaml
-code-link: true
-code-annotations: none
-```
-
 - Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed/hidden.
 
 ## [](./link-true--annot-select.qmd)
