@@ -28,12 +28,12 @@ This is a playground for `code-annotations`.
 
 - Normal code block
 
-  ```{r}
+  ```r
   stats::rnorm(3)
   ```
 
 - Computational code block
 
-  ```r
+  ```{r}
   stats::rnorm(3)
   ```
