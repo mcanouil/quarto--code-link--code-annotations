@@ -14,7 +14,8 @@
 code-link: true
 ```
 
-- Annotation in code block => Bad (_known limitation_)
+- Annotation in code block => Bad (_known limitation_).
+- Code linking => Good.
 - Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed (source and output).
 
 ## [`link-true--annot-false.qmd`](./link-true--annot-false.qmd)
@@ -33,6 +34,7 @@ code-link: true
 code-annotations: none
 ```
 
+- Code linking => Good.
 - Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is completely removed (source and output).
 
 ## [`link-true--annot-hover.qmd`](./link-true--annot-hover.qmd)
@@ -42,7 +44,8 @@ code-link: true
 code-annotations: hover
 ```
 
-- Annotation in code block => Bad (_known limitation_)
+- Annotation in code block => Bad (_known limitation_).
+- Code linking => Good.
 - Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed (source and output).
 
 ## [`link-true--annot-select.qmd`](./link-true--annot-select.qmd)
@@ -52,5 +55,6 @@ code-link: true
 code-annotations: select
 ```
 
-- Annotation in code block => Bad (_known limitation_)
+- Annotation in code block => Bad (_known limitation_).
+- Code linking => Good.
 - Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed (source and output).
