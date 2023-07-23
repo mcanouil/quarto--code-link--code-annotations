@@ -1,5 +1,12 @@
 # `code-link` Limitations
 
+## [](./link--annot.qmd)
+
+```yaml
+```
+
+- Computational code block with comment annotation (_i.e._, `# <1>`) but no actual annotation => Bad, the code block is removed (source and output).
+
 ## [](./link-true--annot.qmd)
 
 ```yaml
